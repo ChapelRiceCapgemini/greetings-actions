@@ -9,9 +9,9 @@ name: simple-pipe
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "debug" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "debug" ]
   workflow_dispatch:
     inputs:
       myValues:
